@@ -9,7 +9,9 @@ Then you can run with:
 java DecisionTree
 
 The package currently trains the tree from the data/processed.cleveland.csv file
-and makes predictions on the data/processed.switzerland.csv file.
+and makes predictions on the data/processed.switzerland.csv file. This data
+has been downloaded from the UCI Machine Learning repository at:
+https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
 The files containing the data to train the tree and to test are currently
 hard-coded in the DecisionTree.java file. To change the files, call the readCsv
