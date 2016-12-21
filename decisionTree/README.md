@@ -18,4 +18,4 @@ hard-coded in the DecisionTree.java file. To change the files, call the readCsv
 method on the location of the data set and the column number (0-indexed) of
 the prediction column.
 
-This code was written for an assignment in the CSC 273 Data Mining course at Hofstra University
+This code was written for an assignment in the CSC 145O Data Science course at Hofstra University
