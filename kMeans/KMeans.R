@@ -17,7 +17,7 @@ kmeans <- function(k, table) {
     }
 
     # Randomly select a point from the data to be the first centroid
-    firstCentroidIndex <- ceiling(runif(1, min = 0, max = length(x)))
+    firstCentroidIndex <- ceiling(runif(1, min = 1, max = numberOfPoints))
     # Initialize the centroids matrix where each row will contain one centroid
     centroids <- matrix(0, ncol = dim(table)[2])
     centroids[1,] <- table[firstCentroidIndex,]
